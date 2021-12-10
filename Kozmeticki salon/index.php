@@ -24,7 +24,7 @@
                         <li class="nav-item"><a class="nav-link" href="#!">Cenovnik</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Zakazivanje</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Zakazani termini</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Kontakt</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./kontakt.html">Kontakt</a></li>
                     </ul>
                 </div>
             </div>

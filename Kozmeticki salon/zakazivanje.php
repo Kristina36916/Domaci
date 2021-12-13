@@ -35,7 +35,7 @@
         </nav>
         <!-- Page Content-->
         <div class="naslov">
-        <h2><i><b> Kozmetički salon</b></i></h2>
+        <h2><i><b>Kozmetički salon</b></i></h2>
     </div>
 </header>
     <div >
@@ -63,12 +63,34 @@
             <input type="date" name="datum" id="datum" >
         </div><br>
         <div class="polje">
-            <button type="submit" name="submit" class="btn">Potvrdi</button>
-            <button type="submit" name="vidi" class="btn"><a href="zakazani.php">Vidi zakazane</a></button>
-            
-        </div>
-    </form>
-       
+<label>Izaberi kozmetičara</label>
+<select name="lekar" id="lekar" >
+   <option value="dr"></option>
+   <?php 
+   // izbor kozmetičara iz tabele kozmeticar u bazi kozmeticki salon
+  
+  $q=mysqli_query($link, "SELECT * FROM kozmeticari");
+  while($rows =mysqli_fetch_array($q)){
+   $ime1=$rows['ime'];
+    $prezime1=$rows['prezime'];
+
+    echo"<option >$ime1 $prezime1</option>";}?>
+</select>
+</div><br>
+
+<div class="polje">
+<label>Usluga</label>
+<select name="usluga" id="usluga" >
+   <option ></option>
+
+   <?php 
+   $q1=mysqli_query($link, "SELECT * FROM usluga");
+  while($rows =mysqli_fetch_array($q1)){
+   $naziv1=$rows['naziv'];
+    echo"<option >$naziv1</option>"; }
+?>
+</select>
+</div><br>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright; Kristina 2021</p></div>

@@ -2,7 +2,7 @@
 $mysql_server = "localhost";
 $mysql_user = "root";
 $mysql_password = "";
-$mysql_db = "kozmeticki salon";
+$mysql_db = "kozmeticki_salon";
 
 // povezivanje sa bazom "kozmeticki salon"
 

@@ -26,34 +26,49 @@
                         <li class="nav-item"><a class="nav-link active"  href="./index.php">Početna</a></li>
                         <li class="nav-item"><a class="nav-link" href="./onama.html">O nama</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Cenovnik</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Zakazivanje</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./zakazivanje.php">Zakazivanje</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Zakazani termini</a></li>
                         <li class="nav-item"><a class="nav-link" href="./kontakt.html">Kontakt</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./prijavna.php">Prijava</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Content-->
-        
-        <div class="login-form">
-        <div class="main-div">
-            <form method="POST" action="#">
-                <div class="container">
-                <p><h3>Prijava </h3></p>
-                    <label class="username">Korisnicko ime</label>
-                    <input type="text" name="username" class="form-control"  required>
-                    <br>
-                    <label for="password">Lozinka</label>
-                    <input type="password" name="password" class="form-control" required>
-                    <button type="submit" class="btn btn-primary" name="submit">Prijavi se</button>
-                </div>
-
-            </form>
-        </div>
-
-        
+        <div class="naslov">
+        <h2><i><b> Kozmetički salon</b></i></h2>
     </div>
+</header>
+    <div >
+        <h2>Zakazivanje termina</h2>    
+    </div>
+    <form action="insert.php" method="POST" class="formaUnos">
+        <div class="polje">
+            <label>Ime</label>
+            <input type="text" name="ime" id="ime" placeholder="Unesite ime">
+        </div><br>
+        <div class="polje">
+            <label>Prezime</label>
+            <input type="text" name="prezime" id="prezime" placeholder="Unesite prezime">
+        </div><br>
+        <div class="polje">
+            <label>Broj telefona</label>
+            <input type="text" name="telefon" id="telefon" placeholder="Unesite telefon">
+        </div><br>
+        <div class="polje">
+            <label>Email</label>
+            <input type="text" name="email" id="email" placeholder="Unesite email">
+        </div><br>
+        <div class="polje">
+            <label>Datum</label>
+            <input type="date" name="datum" id="datum" >
+        </div><br>
+        <div class="polje">
+            <button type="submit" name="submit" class="btn">Potvrdi</button>
+            <button type="submit" name="vidi" class="btn"><a href="zakazani.php">Vidi zakazane</a></button>
+            
+        </div>
+    </form>
+       
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright; Kristina 2021</p></div>

@@ -34,74 +34,49 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <div class= "container">
-        <div class="naslov">
-        <h2><i><b>Kozmetički salon</b></i></h2>
-    </div>
-</header>
-    <div >
-        <h2>Zakazivanje termina</h2>    
-    </div>
-    <form action="insert.php" method="POST" class="formaUnos">
-        <div class="polje">
-            <label>Ime</label>
-            <input type="text" name="ime" id="ime" placeholder="Unesite ime">
-        </div><br>
-        <div class="polje">
-            <label>Prezime</label>
-            <input type="text" name="prezime" id="prezime" placeholder="Unesite prezime">
-        </div><br>
-        <div class="polje">
-            <label>Broj telefona</label>
-            <input type="text" name="telefon" id="telefon" placeholder="Unesite telefon">
-        </div><br>
-        <div class="polje">
-            <label>Email</label>
-            <input type="text" name="email" id="email" placeholder="Unesite email">
-        </div><br>
-        <div class="polje">
-            <label>Datum</label>
-            <input type="date" name="datum" id="datum" >
-        </div><br>
-        <div class="polje">
-<label>Izaberi kozmetičara</label>
-<select name="lekar" id="lekar" >
-   <option value="dr"></option>
-   <?php 
-   // izbor kozmetičara iz tabele kozmeticar u bazi kozmeticki salon
-  
-  $q=mysqli_query($link, "SELECT * FROM kozmeticari");
-  while($rows =mysqli_fetch_array($q)){
-   $ime1=$rows['ime'];
-    $prezime1=$rows['prezime'];
+        <div class=container4>
+  <p> <h2><i><b>Kozmetički salon</b></i></h2>
+        <h2>Zakazani pregledi</h2>   
+</div>
+        
 
-    echo"<option >$ime1 $prezime1</option>";}?>
-</select>
-</div><br>
+<td>
+<table class="table" id="zakazani"  border="1" cellpadding="5" cellspacing="2" style="text-align:center"> 
+<thead><tr>
+<th>Ime </th>
+<th>Prezime</th>
+<th>Telefon</th>
+<th>Email</th>
+<th>Datum</th>
+<th>Kozmetičar</th>
+<th>Usluga</th>
+<th><i>Izmeni</i></th>
+<th><i>Obriši</i></th>
 
-<div class="polje">
-<label>Usluga</label>
-<select name="usluga" id="usluga" >
-   <option ></option>
+</tr>
+<?php 
+// Prikaz svih zakazanih iz baze
+ $upit="SELECT * FROM zakazani";
+$rez=$link->query($upit);
+if($rez->num_rows>0)
+while ($row= mysqli_fetch_array($rez)) {?>
+<tr>
+<td><?php echo $row["imez"]; ?></td>
+<td><?php echo $row["prezimez"]; ?></td>
+<td><?php echo $row["telefonz"]; ?></td>
+<td><?php echo $row["emailz"]; ?></td>
+<td><?php echo $row["datum"]; ?></td>
+<td><?php echo $row["kozmeticar"]; ?></td>
+<td><?php echo $row["usluga"]; ?></td>
 
-   <?php 
-   $q1=mysqli_query($link, "SELECT * FROM usluga");
-  while($rows =mysqli_fetch_array($q1)){
-   $naziv1=$rows['naziv'];
-    echo"<option >$naziv1</option>"; }
-?>
-</select>
-</div><br>
+<td><button><a href="update.php?edit=<?php echo $row['id']; ?>">Izmeni</a></button></td>
+<td><button ><a href="delete.php?delete=<?php echo $row['id']; ?>">Obriši</a></button></td>
+</tr>
+<?php } ?>
+</table>
 
-<div class="polje">
-            <button type="submit" name="submit" class="btn">Potvrdi</button>
-            <button type="submit" name="vidi" class="btn"><a href="zakazani.php">Vidi zakazane</a></button>
-            
-        </div>
-    </form>
 
-</div><br>
-  </div>
+ <button class="dugme1"><a href="zakazivanje.php">Zakaži</a></button><br><br>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright; Kristina 2021</p></div>

@@ -627,6 +627,24 @@ progress {
 }
 
 .container,
+div.container4 {
+  height: 10em;
+  position: relative },
+.container2{
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+},
+div.container4 p {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) },
 .container-fluid,
 .container-xxl,
 .container-xl,
@@ -7465,7 +7483,11 @@ textarea.form-control-lg {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
 }
-
+P.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
+}
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;

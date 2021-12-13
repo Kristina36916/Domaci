@@ -22,7 +22,7 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active"  href="./index.php">Početna</a></li>
                         <li class="nav-item"><a class="nav-link" href="./onama.html">O nama</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Cenovnik</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./cenovnik.php">Cenovnik</a></li>
                         <li class="nav-item"><a class="nav-link" href="./zakazivanje.php">Zakazivanje</a></li>
                         <li class="nav-item"><a class="nav-link" href="./zakazani.php">Zakazani termini</a></li>
                         <li class="nav-item"><a class="nav-link" href="./kontakt.html">Kontakt</a></li>
@@ -40,7 +40,7 @@
                     <h1 class="font-weight-light">Kozmetički salon</h1>
                     <p>Novootvoreni kozmetički salon je Vaša nova oaza gde se možete opustiti,prolepšati i učiniti mnogo toga za svoju dušu i telo.Kozmetički salon čini više celina, gde na jednom mestu možete uraditi sve potrebne tretmane i tako uštedeti vreme i novac.
 Nov i moderno opremljen prostor, stručno osoblje i uvek prijatna atmosfera, obezbeđen parking, dvorište i kutak za kijente za kaficu su sitnice koje čine razliku.</p>
-                    <a class="btn btn-primary" href="#!">Cenovnik</a>
+                    <a class="btn btn-primary" href="./cenovnik.php">Cenovnik</a>
                 </div>
             </div>
             <!-- Call to Action-->
@@ -56,7 +56,7 @@ Nov i moderno opremljen prostor, stručno osoblje i uvek prijatna atmosfera, obe
                             <h2 class="card-title">Tretmani lica</h2>
                             <p class="card-text">Koža, kao naš najveći organ, predstavlja zaštitnu barijeru koja nas štiti od negativnih spoljašnjih uticaja. Usled izloženosti zagađenom vazduhu, ultraljubičastom zračenju, duvanskom dimu i svakodnevnim nanošenjem šminke struktura kože zadebljava, pune se pore, koža gubi svežinu i poprima umoran izgled. </p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">Cenovnik</a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="./cenovnik.php">Cenovnik</a></div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
@@ -65,7 +65,7 @@ Nov i moderno opremljen prostor, stručno osoblje i uvek prijatna atmosfera, obe
                             <h2 class="card-title">Masaže</h2>
                             <p class="card-text">Masaža je jedan od najstarijih i najjednostavnijih načina lečenja. Ime joj potiče od arapske reči “Massa”, što znači dodir.Dodir je suština i osnova masaže. Dodir znači vezu, odnos sa onim sto je izvan nas.Za čoveka je dodir od bitne važnosti jer pruža sigurnost, toplinu, zadovoljstvo, ugodnost i vraća životnu snagu.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">Cenovnik</a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="./cenovnik.php">Cenovnik</a></div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
@@ -74,7 +74,7 @@ Nov i moderno opremljen prostor, stručno osoblje i uvek prijatna atmosfera, obe
                             <h2 class="card-title">Laserska epilacija</h2>
                             <p class="card-text">Jedina u svetu priznata neinvazivna metoda trajnog uklanjanja malja (trajna epilacija) je epilacija laserom. Pored nje postoji još samo elektroliza, ali ona spada u invazivne metode. Laser za epilaciju se koristi već petnaestak godina u Americi, pa onda u svetu.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">Cenovnik</a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="./cenovnik.php">Cenovnik</a></div>
                     </div>
                 </div>
             </div>

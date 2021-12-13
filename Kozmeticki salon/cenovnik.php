@@ -30,24 +30,24 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container px-4 px-lg-5">
-            <!-- Heading Row-->
-            <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.655790354774!2d20.460759415406823!3d44.808203079098725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa8a4b91a91%3A0xe030f1aaa13b6ae9!2z0JrQvdC10LfQsCDQnNC40LvQvtGI0LAgMTQsINCR0LXQvtCz0YDQsNC0!5e0!3m2!1ssr!2srs!4v1639177504971!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>  </div>
-                <div class="col-lg-5">
-                    <h1 class="font-weight-light">Kozmetički salon</h1>
-                    <p><h4>
-                        <b>Adresa: Kneza Miloša 14, 11000 Beograd </b><h4>
-                            <b>Telefon: 011 3650800</b></p>
-                    <a class="btn btn-primary" href="#!">Zakaži termin</a>
-                    <div class="col-sm-3 full-height fancy">
-
-                        <div>
-                </div>
-            </div>
-            
-            </div>
-        </div>
+        <h3><p>Cenovnik i usluge</p></h3>
+        <table>
+<tr>
+    <th>Usluga</th>
+    <th>Cena</th>
+    <th>Trajanje</th>
+  </tr>
+  <tr>
+    <td>Higijenski tertman lica</td>
+    <td>2000</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Hemijski tretman lica</td>
+    <td>3000</td>
+    <td>60</td>
+  </tr>
+</table>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright; Kristina 2021</p></div>

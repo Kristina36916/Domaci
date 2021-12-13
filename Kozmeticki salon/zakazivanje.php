@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php 
+     include "konekcija.php";
+    
+ ?>
+ <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -31,19 +35,25 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container px-4 px-lg-5">
-            <!-- Heading Row-->
-            <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/salon.jpg" alt="..." /></div>
-                <div class="col-lg-5">
-                    <h1 class="font-weight-light">Kozmetički salon</h1>
-                    <p>Kozmetički salon ima dugu tradiciju na teritorijama bivse Jugoslavije. Otvoren je u januaru 2019-te godine u glavnom gradu naše zemlje. Ostvaruje zavidne rezultate. Uz poštovanje svih epidemioloških mera, salon se trudi da održi kvalitet svojih usluga. </p>
-                    <a class="btn btn-primary" href="./kontakt.html">Kontakt</a>
+        
+        <div class="login-form">
+        <div class="main-div">
+            <form method="POST" action="#">
+                <div class="container">
+                <p><h3>Prijava </h3></p>
+                    <label class="username">Korisnicko ime</label>
+                    <input type="text" name="username" class="form-control"  required>
+                    <br>
+                    <label for="password">Lozinka</label>
+                    <input type="password" name="password" class="form-control" required>
+                    <button type="submit" class="btn btn-primary" name="submit">Prijavi se</button>
                 </div>
-            </div>
-            
-            </div>
+
+            </form>
         </div>
+
+        
+    </div>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright; Kristina 2021</p></div>

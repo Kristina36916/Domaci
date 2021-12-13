@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -25,6 +26,7 @@
                         <li class="nav-item"><a class="nav-link" href="#!">Zakazivanje</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Zakazani termini</a></li>
                         <li class="nav-item"><a class="nav-link" href="./kontakt.html">Kontakt</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./prijavna.php">Prijava</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +45,7 @@ Nov i moderno opremljen prostor, stručno osoblje i uvek prijatna atmosfera, obe
             </div>
             <!-- Call to Action-->
             <div class="card text-white bg-secondary my-5 py-4 text-center">
-                <div class="card-body"><p class="text-white m-0"></p><h4>Zakažite Vaš termin na vreme!</h4>
+                <div class="card-body"><a class="text-white m-0" href="./prijavna.php"><h4> Zakažite Vaš termin na vreme!</h4></a>
             </div>
             </div>
             <!-- Content Row-->

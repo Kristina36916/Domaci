@@ -10,6 +10,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/add.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -30,8 +31,8 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <h3><p>Cenovnik i usluge</p></h3>
-        <table>
+        <table class="center">
+            <tr><th><h7><p>Cenovnik i usluge</p></h7></th></tr>
 <tr>
     <th>Usluga</th>
     <th>Cena</th>
@@ -88,7 +89,10 @@
     <td>80</td>
   </tr>
 </table>
-        <!-- Footer-->
+<div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><a class="text-white m-0" href="./zakazivanje.php"><h4> Zakažite Vaš termin na vreme!</h4></a>
+                </body>
+                <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright; Kristina 2021</p></div>
         </footer>
@@ -96,5 +100,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-    </body>
+    
 </html>

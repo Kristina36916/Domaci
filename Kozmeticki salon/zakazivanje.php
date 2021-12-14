@@ -14,6 +14,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -37,7 +38,7 @@
         <div class= "container">
         <div class="naslov">
         <h2><i><b>Kozmetički salon</b></i></h2>
-    </div>
+</div>
 </header>
     <div >
         <h2>Zakazivanje termina</h2>    

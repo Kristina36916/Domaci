@@ -14,6 +14,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/add.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -34,7 +35,7 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <div class=container4>
+        <div class=polje>
   <p> <h2><i><b>Kozmetički salon</b></i></h2>
         <h2>Zakazani pregledi</h2>   
 </div>
@@ -75,8 +76,10 @@ while ($row= mysqli_fetch_array($rez)) {?>
 <?php } ?>
 </table>
 
-
- <button class="dugme1"><a href="zakazivanje.php">Zakaži</a></button><br><br>
+<div class="polje">
+<button type="submit" name="vidi" class="btn"><a href="./zakazivanje.php">Zakažite željenu uslugu</a></button>
+            
+        </div>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright; Kristina 2021</p></div>

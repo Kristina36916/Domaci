@@ -40,7 +40,25 @@
                     <h1 class="font-weight-light">Kozmetički salon</h1>
                     <p>Novootvoreni kozmetički salon je Vaša nova oaza gde se možete opustiti,prolepšati i učiniti mnogo toga za svoju dušu i telo.Kozmetički salon čini više celina, gde na jednom mestu možete uraditi sve potrebne tretmane i tako uštedeti vreme i novac.
 Nov i moderno opremljen prostor, stručno osoblje i uvek prijatna atmosfera, obezbeđen parking, dvorište i kutak za kijente za kaficu su sitnice koje čine razliku.</p>
-                    <a class="btn btn-primary" href="./cenovnik.php">Cenovnik</a>
+<div id="istorija">
+                    <h1>Istorija kozmetike</h1>
+                    <button type="button" onclick="loadDoc()">Saznaj više</button>
+                    </div>
+                    <!--ajax primena za prikaz teksta-->
+                    <script>
+                    function loadDoc() {
+                      var xhttp = new XMLHttpRequest();
+                      xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4 && this.status == 200) {
+                          document.getElementById("istorija").innerHTML =
+                          this.responseText;
+                        }
+                      };
+                      xhttp.open("GET", "istorija.txt", true);
+                      xhttp.send();
+                        }
+                    
+                    </script>
                 </div>
             </div>
             <!-- Call to Action-->

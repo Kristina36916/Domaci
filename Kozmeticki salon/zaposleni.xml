@@ -1,0 +1,22 @@
+<Katalog>
+    <Zaposleni>
+        <ImePrezime>Milica Marijanović</ImePrezime>
+        <RadnoIskustvo>Više od 5 godina</RadnoIskustvo>
+        <Status>Novozaposlen</Status>
+    </Zaposleni>
+    <Zaposleni>
+        <ImePrezime>Tamara Petrović</ImePrezime>
+        <RadnoIskustvo>Više od 10 godina</RadnoIskustvo>
+        <Status>Stalnozaposlen</Status>
+    </Zaposleni>
+    <Zaposleni>
+        <ImePrezime>Marko Jovanović</ImePrezime>
+        <RadnoIskustvo>Manje od 5 godina</RadnoIskustvo>
+        <Status>Novozaposlen</Status>
+    </Zaposleni>
+    <Zaposleni>
+        <ImePrezime>Miloš Katić</ImePrezime>
+        <RadnoIskustvo>Više od 10 godina</RadnoIskustvo>
+        <Status>Stalnozaposlen</Status>
+    </Zaposleni>
+</Katalog>

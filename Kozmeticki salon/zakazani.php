@@ -80,6 +80,7 @@ while ($row= mysqli_fetch_array($rez)) {?>
 
 <td><button><a href="update.php?edit=<?php echo $row['id']; ?>">Izmeni</a></button></td>
 <td><button ><a href="delete.php?delete=<?php echo $row['id']; ?>">Obriši</a></button></td>
+<td><button ><a href="select.php?delete=<?php echo $row['id']; ?>">selektuj</a></button></td>
 </tr>
 <?php } ?>
 </table>

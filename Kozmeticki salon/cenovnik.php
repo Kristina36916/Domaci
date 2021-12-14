@@ -109,6 +109,8 @@
    console.log(convertedIntoArray);
    console.log(convertedIntoArray.length);
 </script>
+<br>
+<br>
 
 
 <div class="card text-white bg-secondary my-5 py-4 text-center">

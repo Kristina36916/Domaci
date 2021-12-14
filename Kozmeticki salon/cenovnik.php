@@ -11,6 +11,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/add.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -31,7 +33,9 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <table class="center">
+      <br>
+      <br>
+        <table class="center" id="cenovnik">
             <tr><th><h7><p>Cenovnik i usluge</p></h7></th></tr>
 <tr>
     <th>Usluga</th>
@@ -89,6 +93,24 @@
     <td>80</td>
   </tr>
 </table>
+<!-- primer primene jScripta-konvertovanje tabele cenovnik u niz -->
+<script>
+   var convertedIntoArray = [];
+   $("table#cenovnik tr").each(function() {
+      var rowDataArray = [];
+      var actualData = $(this).find('td');
+      if (actualData.length > 0) {
+         actualData.each(function() {
+            rowDataArray.push($(this).text());
+         });
+         convertedIntoArray.push(rowDataArray);
+      }
+   });
+   console.log(convertedIntoArray);
+   console.log(convertedIntoArray.length);
+</script>
+
+
 <div class="card text-white bg-secondary my-5 py-4 text-center">
                 <div class="card-body"><a class="text-white m-0" href="./zakazivanje.php"><h4> Zakažite Vaš termin na vreme!</h4></a>
                 </body>

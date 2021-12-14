@@ -38,9 +38,11 @@
                 <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/slika1.jpg" alt="..." /></div>
                 <div class="col-lg-5">
                     <h1 class="font-weight-light">Kozmetički salon</h1>
-                    <p>Novootvoreni kozmetički salon je Vaša nova oaza gde se možete opustiti,prolepšati i učiniti mnogo toga za svoju dušu i telo.Kozmetički salon čini više celina, gde na jednom mestu možete uraditi sve potrebne tretmane i tako uštedeti vreme i novac.
+                    <!--jScript primena za sakrivanje teksta-->
+                    <p id="tekst">Novootvoreni kozmetički salon je Vaša nova oaza gde se možete opustiti,prolepšati i učiniti mnogo toga za svoju dušu i telo.Kozmetički salon čini više celina, gde na jednom mestu možete uraditi sve potrebne tretmane i tako uštedeti vreme i novac.
 Nov i moderno opremljen prostor, stručno osoblje i uvek prijatna atmosfera, obezbeđen parking, dvorište i kutak za kijente za kaficu su sitnice koje čine razliku.</p>
-<div id="istorija">
+<button type="button" onclick="document.getElementById('tekst').style.display='none'">Sakrij</button>
+                <div id="istorija">
                     <h1>Istorija kozmetike</h1>
                     <button type="button" onclick="loadDoc()">Saznaj više</button>
                     </div>

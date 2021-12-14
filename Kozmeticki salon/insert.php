@@ -9,10 +9,10 @@ empty($_POST['datum'])||empty($_POST['kozmeticar'])||empty($_POST['usluga'])){
     echo "Popunite prazna polja.";
 
 }else{
-$imez= $_POST['ime'];
-$prezimez= $_POST['prezime'];
-$telefonz= $_POST['telefon'];
-$emailz= $_POST['email'];
+$ime= $_POST['ime'];
+$prezime= $_POST['prezime'];
+$telefon= $_POST['telefon'];
+$email= $_POST['email'];
 $datum= $_POST['datum'];
 $kozmeticar= $_POST['kozmeticar'];
 $usluga= $_POST['usluga'];

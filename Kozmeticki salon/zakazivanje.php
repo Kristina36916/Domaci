@@ -65,8 +65,8 @@
         </div><br>
         <div class="polje">
 <label>Izaberi kozmetičara</label>
-<select name="lekar" id="lekar" >
-   <option value="dr"></option>
+<select name="kozmeticar" id="kozmeticar" >
+   <option ></option>
    <?php 
    // izbor kozmetičara iz tabele kozmeticar u bazi kozmeticki salon
   

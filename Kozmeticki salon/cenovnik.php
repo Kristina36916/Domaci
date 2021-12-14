@@ -43,9 +43,49 @@
     <td>50</td>
   </tr>
   <tr>
-    <td>Hemijski tretman lica</td>
-    <td>3000</td>
+    <td>Hemijski tertman lica</td>
+    <td>3900</td>
     <td>60</td>
+  </tr>
+  <tr>
+    <td>Dijamantska mikrodermoabrazija</td>
+    <td>2000</td>
+    <td>45</td>
+  </tr>
+  <tr>
+    <td>Radiotalasni lifting lica – nehiruški lifting</td>
+    <td>3500</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>Anticelulit masaža</td>
+    <td>1400</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>Relax masaža</td>
+    <td>2000</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>Terapeutska masaža </td>
+    <td>1800</td>
+    <td>45</td>
+  </tr>
+  <tr>
+    <td>Epilacija nausnica</td>
+    <td>1000</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Epilacija celih ruku</td>
+    <td>4000</td>
+    <td>40</td>
+  </tr>
+  <tr>
+    <td>Epilacija celih nogu </td>
+    <td>10000</td>
+    <td>80</td>
   </tr>
 </table>
         <!-- Footer-->

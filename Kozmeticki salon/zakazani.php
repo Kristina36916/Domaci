@@ -15,22 +15,6 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/add.css" rel="stylesheet" />
-        <script type="text/javascript">
-$(document).ready(function () {
-$("#txt").keyup(function(){
-var vrednost = $("#txt").val();
-$.get("pronadji.php", { unos: vrednost },
-   function(data){
-    $("#livesearch").show();
-    $("#livesearch").html (data);
-   });
-});
-});
-function place(ele){
-	$("#txt").val(ele.innerHTML);
-	$("#livesearch").hide();
-}
-</script>
     </head>
     <body>
         <!-- Responsive navbar-->

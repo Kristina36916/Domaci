@@ -8,6 +8,7 @@ Cenovnik sadrzi tabelu sa uslugama, cenama i trajanjem. Primenjen je JScript, u 
 Zakazivanje zadrzi formu za popunjavanje potrebnih podataka, kao i dva padajuca menija za izbor kozmeticara i usluge. Padajuci meniji 
 formirani su na osnovu sazdrzaja baze. 
 Zakazani termini sadrze tabelu zakazanih usluga sa svim neophodnim podacima, kao i php funkciju date.
+Select operacije je ovde dodata samo kao primer da radi.Nisam imala ideju gde da je stvim.
 Kontakt prikazuje kontakt podatke,i mapu sa lokacijom, na koju je primenjen Jquery hover evenet.
 U konekcija.php usostavljena je konekcija sa bazom. 
 Operacije select, insert, update, delete vrse se nad bazom podataka Kozmeticki salon.

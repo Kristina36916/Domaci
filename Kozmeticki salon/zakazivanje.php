@@ -43,6 +43,15 @@
     <div >
         <h2>Zakazivanje termina</h2>    
     </div>
+    <?php
+//date funkcija, prikazuje vreme
+$str_vreme= date("j/F/Y");
+echo $str_vreme;
+echo "<br>";
+$str_vreme= date("H:i:s ");
+echo $str_vreme;
+
+?>
     <form action="insert.php" method="POST" class="formaUnos">
         <div class="polje">
             <label>Ime</label>

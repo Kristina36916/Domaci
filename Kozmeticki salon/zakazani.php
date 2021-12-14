@@ -15,6 +15,22 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/add.css" rel="stylesheet" />
+        <script type="text/javascript">
+$(document).ready(function () {
+$("#txt").keyup(function(){
+var vrednost = $("#txt").val();
+$.get("pronadji.php", { unos: vrednost },
+   function(data){
+    $("#livesearch").show();
+    $("#livesearch").html (data);
+   });
+});
+});
+function place(ele){
+	$("#txt").val(ele.innerHTML);
+	$("#livesearch").hide();
+}
+</script>
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -39,7 +55,15 @@
   <p> <h2><i><b>Kozmetički salon</b></i></h2>
         <h2>Zakazani pregledi</h2>   
 </div>
-        
+<?php
+//date funkcija, prikazuje vreme
+$str_vreme= date("j/F/Y");
+echo $str_vreme;
+echo "<br>";
+$str_vreme= date("H:i:s ");
+echo $str_vreme;
+
+?>      
 
 <td>
 <table class="table" id="zakazani"  border="1" cellpadding="5" cellspacing="2" style="text-align:center"> 
